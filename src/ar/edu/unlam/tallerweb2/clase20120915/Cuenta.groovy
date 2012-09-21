@@ -1,11 +1,11 @@
 package ar.edu.unlam.tallerweb2.clase20120915
 
-abstract class Cuenta {
+public class Cuenta {
 	
-	double saldo
-	int cantidadMovimientos
+	def saldo
+	def cantidadMovimientos
 	Cliente cliente
-	
-	public abstract double extraer(double importe);
+		
+	def extraer(){}	
 
 }
