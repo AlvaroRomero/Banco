@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-class CajaAhorroTest {
+class CajaAhorroTest{
 	
 	@Test
 	void crearCajaAhorroTest(){
@@ -45,7 +45,6 @@ class CajaAhorroTest {
 		CajaAhorro miCaja = new CajaAhorro(saldo:3000, cliente:cliente1)
 		miCaja.extraer(-1000)
 		assert miCaja.saldo == 3000
-	}
-	
+	}	
 	
 }

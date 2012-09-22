@@ -7,7 +7,7 @@ class CajaAhorro extends Cuenta {
 			throw new ImporteNegativoException('El importe a extraer debe ser positivo.')
 		}
 		if(importe>1000){
-			throw new SuperaLimiteException('El importe actual $'+importe+' supera el Limite permitido.')
+			throw new SuperaLimiteException('Supera Limite permitido')
 		}
 	true
 	}
